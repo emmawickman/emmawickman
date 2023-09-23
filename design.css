@@ -1,0 +1,58 @@
+
+ body {
+        font-family: Montserrat, sans-serif;
+        background-color: #F9B1B7;
+        padding: 20px;
+        font-size: 34px;
+        
+    }
+
+    .output {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        color: rgb(45, 45, 45);
+    }
+
+    .box .output {
+        font-size: 34px;
+        width: 88%;
+        
+        
+    }
+
+    #resultArea #calculateButton  #radioOptions #productDropdown #stonePrice{
+        font-size: 34px;
+    }
+
+    select {
+        font-size: 44px;  /* eller vilken storlek du föredrar */
+        background-color: rgb(255, 255, 255);
+        color: rgb(198, 30, 92);
+        border: rgb(180, 151, 119);
+
+    }
+
+    button {
+        background-color: rgb(255, 165, 69);
+        font-size: 34px;  /* eller vilken storlek du föredrar */
+        color: white;
+    }
+
+
+
+    input {
+        background-color: rgb(255, 255, 255);
+        font-size: 34px;  /* eller vilken storlek du föredrar */
+        color: rgb(77, 39, 39);
+    }
+
+    .parent  {
+    display: flex;
+    justify-content: center;  /* horizontally centers content */
+    align-items: center;      /* vertically centers content */
+    width: 88%;             /* or whatever width you want */
+    height: 88%;            /* or whatever height you want */
+    margin: 0 auto; 
+    padding: 10%;
+}
