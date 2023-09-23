@@ -56,3 +56,96 @@
     margin: 0 auto; 
     padding: 10%;
 }
+
+
+/*-----media less and 600px-----*/
+@media only screen and (max-width: 600px) {
+
+
+
+.box {
+    margin-top: 10%;
+    width: 96%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 2%;
+    padding-top: 1%;
+    border: 0px;
+    border-radius: 25px;
+    opacity: 90%;
+    padding: 20px; 
+}
+body {
+    font-family: Montserrat, sans-serif;
+ 
+    
+}
+
+
+.box .output {
+    font-size: 20px;
+    width: 88%;
+    
+    
+}
+
+
+label {
+    font-size: 18px;  /* eller vilken storlek du föredrar */
+    color: rgb(93, 50, 50);
+    letter-spacing: 1.4px;
+    width: 100%;
+    margin-top: 4px;
+    
+}
+
+select {
+    font-size: 28px;  /* eller vilken storlek du föredrar */
+    background-color: rgba(249, 148, 85, 0.775);
+    color: rgb(255, 255, 255);
+    border: rgb(165, 162, 158);
+    letter-spacing: 1.7px;
+    width: 100%;
+    margin-top: 14px;
+    border-radius: 14px;
+    padding: 8px;
+}
+
+button {
+    font-size: 28px;  /* eller vilken storlek du föredrar */
+    background-color: rgba(249, 148, 85, 0.775);
+    color: rgb(255, 255, 255);
+    border: rgb(165, 162, 158);
+    letter-spacing: 1.7px;
+    width: 100%;
+    margin-top: 14px;
+    border-radius: 14px;
+    padding: 8px;
+}
+
+input {
+    background-color: rgb(251, 211, 211);
+    font-size: 24px;  /* eller vilken storlek du föredrar */
+    color: rgb(181, 136, 120);
+    border: rgb(165, 162, 158);
+    letter-spacing: 1.7px;
+    margin-top: 14px;
+    border-radius: 14px;
+    padding: 8px;
+    
+}
+
+    #radioOptions{
+        letter-spacing: 1.7px;
+        padding: 0px;
+        margin-top: 40px;
+        line-height: 48px;
+        font-size: 18px;
+        
+    
+}
+
+
+
+}
