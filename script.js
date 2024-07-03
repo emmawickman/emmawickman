@@ -7,21 +7,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const radioButtonOptions = {
         'Les Grands': [
-            "1.5mm Helrund|577,2.5,1.5",
-            "2.0mm Halvrund STANDARD|577,3,1.5",
-            "2.0mm Helrund|577,3.8,2"
+            "1.5mm Helrund|685,2.5,1.5",
+            "2.0mm Halvrund STANDARD|685,3,1.5",
+            "2.0mm Helrund|685,3.8,2"
         ],
         'Les Bonbons': [
-            "1.25mm Helrund|577,1.3,1.5",
-            "1.5mm Helrund|577,2,1.5",
-            "2.0mm Halvrund|577,2.8,1.5",
-            "2.0mm Helrund|577,3.3,1.5"
+            "1.25mm Helrund|685,1.3,1.5",
+            "1.5mm Helrund|685,2,1.5",
+            "2.0mm Halvrund|685,2.8,1.5",
+            "2.0mm Helrund|685,3.3,1.5"
         ],
         'Les Bonbons obehandlad safir': [
-            "1.25mm Helrund|577,1.3,1.5",
-            "1.5mm Helrund|577,2,1.5",
-            "2.0mm Halvrund|577,2.8,1.5",
-            "2.0mm Helrund|577,3.3,1.5"
+            "1.25mm Helrund|685,1.3,1.5",
+            "1.5mm Helrund|685,2,1.5",
+            "2.0mm Halvrund|685,2.8,1.5",
+            "2.0mm Helrund|685,3.3,1.5"
         ]
     };
 
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const surcharge = getSurcharge(stonePrice);
 
             const metalCost = metalPrice * metalMultiplier;
-            const workCost = 258 * workHours;
+            const workCost = 750 * workHours;
             const subtotal = stonePrice + metalCost + workCost;
             const totalBeforeTax = subtotal + surcharge;
             let totalWithTax = totalBeforeTax * 1.25;
